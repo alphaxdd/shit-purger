@@ -5,7 +5,7 @@ from discord.ext import commands
 token   = " " # seu token aqui
 prefixo = ";" # prefixo do clean
 
-print("""alpha god""")
+print("""alpha""")
 
 os.system('color f')
 os.system('color 9')
