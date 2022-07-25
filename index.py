@@ -24,7 +24,7 @@ async def clean(ctx, limit: int=None):
            except:
                failed += 1
    os.system('color f')
-   print(f" [Finalizado] {passed} Mensagens removidas e {failed} com erro.")
+   print(f" [Done] {passed} Deleted messages and {failed} faileds.")
    os.system('color 9')
 
 bot.run(token, bot=False)
