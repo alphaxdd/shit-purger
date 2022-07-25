@@ -2,15 +2,14 @@ import os
 import discord
 from discord.ext import commands
 
-token   = " " # seu token aqui
-prefixo = ";" # prefixo do clean
+#command clean
+token = "" #ur dc acc token
+prefix = ";" #selfbot prefix
 
 print("trash purger")
 
 os.system('color f')
-os.system('color 9')
-
-bot = commands.Bot(command_prefix=prefixo, self_bot=True)
+bot = commands.Bot(command_prefix=prefix, self_bot=True)
 
 @bot.command()
 async def clean(ctx, limit: int=None):
